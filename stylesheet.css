@@ -1,0 +1,21 @@
+
+h1{
+    text-align: center;
+}
+
+.el{
+    height:45px;
+    padding-left: 5px;
+}
+.item{   
+    padding-top: 25px;
+	float: left;
+}
+
+header{
+    padding:10px;
+    background: rgb(127, 238, 232);
+}
+body{
+    background-color: rgb(255,250,250);
+}
