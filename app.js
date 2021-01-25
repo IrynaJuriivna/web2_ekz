@@ -8,7 +8,7 @@
 
     function ItemsController(service) {
         var controller = this;
-        controller.ItemsList = service.getBuyItems();
+        controller.ItemsList = service.getItems();
         controller.deleteItem = function (itemIndex) {
             service.deleteItem(itemIndex);
         }
@@ -45,7 +45,7 @@
         }
         ];
 
-        service.getBuyItems = function () {
+        service.getItems = function () {
             return ItemsList;
         };
         service.deleteItem = function (itemId) {
